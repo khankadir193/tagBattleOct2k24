@@ -106,7 +106,7 @@ ul li span {
   border-radius: 2vw;
   /*border: 2px solid #de1e4a;*/
   background: url(../img/Status-text-bg.png) center/100% 100% no-repeat;
-  padding-bottom: 2vw;
+  padding-bottom: 12vw;
   /* color: black; */
 }
 
@@ -151,6 +151,8 @@ ul li span {
   /* min-height: 6vh; */
   font-weight: bold;
   padding: 2vw 0vw;
+  position: relative;
+  top: 2vw;
 }
 
 .titleimage {
