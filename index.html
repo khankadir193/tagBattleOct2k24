@@ -1,0 +1,672 @@
+<!DOCTYPE>
+<!--
+   To change this license header, choose License Headers in Project Properties.
+   To change this template file, choose Tools | Templates
+   and open the template in the editor.
+   -->
+<html>
+
+<head>
+    <title>Tag Battle October</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta itemprop="name" content="Tag Battle">
+    <meta property="og:title" content="Tag Battle">
+    <meta property="og:description" content="Tag Battle">
+    <meta property="og:image" content="Tag Battle">
+    <meta property="og:url" content="http://www.streamkarlive.live/streamkar/tagBattleMarch/index.html">
+    <meta property="fb:app_id" content="475289669332579">
+    <meta name="twitter:title" content="Tag Battle">
+    <meta name="twitter:description" content="Tag Battle">
+    <meta name="twitter:image:src" content="http://www.streamkarlive.live/streamkar/tagBattleMarch/img/poster.jpg">
+    <link href="css/style.css?v=8" rel="stylesheet" type="text/css" />
+    <link href="./../common/css/common.css?v=20" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../host.js"></script>
+
+    <script type="text/javascript" src="js/jquery.3.1.min.js"></script>
+    <script type="text/javascript" src="./../common/js/native_api.js?v=5"></script>
+    <script type="text/javascript" src="./../common/js/common.js?v=3"></script>
+
+</head>
+
+<body id="overlay">
+    <div class="langSelect">
+        <button class="btn-language" onclick="langSelect()"><span id="btnLanguage" class="float-left">English</span><sup
+                class="float-right">&#8964;</sup></button>
+    </div>
+    <!-- Header Image  -->
+    <img src="img/1.jpg" class="headpic" id="header_pic">
+
+
+    <!-- <img src="img/win-exciting-reward.png" class="titleimage"> -->
+
+
+
+    <section class="win-exciting-rewards titleimage">
+
+        <div class="rewardsinner" id="rew_btn">
+
+            <div class="win-title">
+                WIN EXCITING REWARDS
+            </div>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade" style="display: none;">
+                    <div class="rank">1</div>
+                    <img src="img/1st-3rd-reward.png" class="rewardstop">
+                    <div class="rewtext">1 week SVIP + 7 days Glory Profile Frame</div>
+
+                </div>
+                <div class="mySlides fade" style="display: none;">
+                    <div class="rank">2</div>
+                    <img src="img/1st-3rd-reward.png" class="rewardstop">
+                    <div class="rewtext">5 days SVIP + 5 days Glory Profile Frame</div>
+                </div>
+                <div class="mySlides fade" style="display: block;">
+                    <div class="rank">3</div>
+                    <img src="img/1st-3rd-reward.png" class="rewardstop">
+                    <div class="rewtext">3 days SVIP + 3 days Glory Profile Frame</div>
+                </div>
+                <div class="mySlides fade" style="display: block;">
+                    <div class="rank">4</div>
+                    <img src="img/4th-5th-reward.png" class="rewardsnext">
+                    <div class="rewtext">3 days Glory Profile Frame</div>
+                </div>
+                <div class="mySlides fade" style="display: block;">
+                    <div class="rank">5</div>
+                    <img src="img/4th-5th-reward.png" class="rewardsnext">
+                    <div class="rewtext">3 days Glory Profile Frame</div>
+                </div>
+            </div>
+        </div>
+        <div class="prev">
+            <button onclick="plusSlides(-1)"><img src="img/arrow.png" style="width:100%;"></button>
+        </div>
+        <div class="next">
+            <button onclick="plusSlides(1)"><img src="img/arrow.png" style="width:100%;"></button>
+        </div>
+        <!-- <a class="prev" onclick="plusSlides(-1)"><img src="img/arrow.png" style="width:100%;"></a>
+        <a class="next" onclick="plusSlides(1)"><img src="img/arrow.png" style="width:100%;"></a> -->
+    </section>
+
+
+    <!-- The dots/circles -->
+    <div style="text-align:center;margin-top: 11vw;display: none;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <div style="margin-top: 12vw;">
+        <button class="playbtn" onclick="openhowPlayBox();"> <img src="img/how-to-play-button.png"
+                class="titleimage"></button>
+    </div>
+
+    <!-- Tabs -->
+    <section class="col-four nav">
+        <div><button class="btn-nav active-btn" id="ootdTab" onclick="navChange(event,'ootd')">#TributeToAshaBhosle<br>5th September to 11th September</button></div>
+        <div><button class="btn-nav " id="foodieTab" onclick="navChange(event,'foodie')">#WeddingSeason2024<br>12th September to 18th September</button></div>
+        <div><button class="btn-nav " id="streamkarcolTab" onclick="navChange(event,'streamkarcol')">
+                #HBDPankajTripathi<br>19th September to 25th September</button></div>
+        <div><button class="btn-nav" id="travelphotographyTab"
+                onclick="navChange(event,'travelphotography')">#DesiSwag<br>26th September to 2nd October</button></div>
+    </section>
+    <!-- End Tabs -->
+
+
+    <button class="playbtn" onclick="gotostatus();"><img src="img/go-to-status.png" class="titleimage"></button>
+
+
+    <div class="lb-tag">
+        LEADERBOARDdays
+    </div>
+    <div class="tabcontentNext   table_data_top" id="Userdetail" style="display:block;">
+        <div class="pageOne maindivone" id="">
+
+
+            <div class="demo2 currdata  rewards-main" id="ootd" style="display: none;">
+
+                <div class="colThree1" id="rankfirst">
+                    <div class="sBg" id="sGif">
+                    </div>
+                    <div class="fBg" id="fGif">
+                    </div>
+                    <div class="tBg" id="tGif">
+                    </div>
+                </div>
+                <table id="ranking_data" cellspacing="0" class="table_data">
+                </table>
+                <table id="ranking_data_ootd" cellspacing="0" class="table_data display-none"
+                    style="margin-top: 0;padding: 0;">
+                </table>
+                <div class="display-none" id="lessBtn_ootd">
+                    <br /><button onclick="actionOnLessBtn('lessBtn_ootd','moreBtn_ootd','ranking_data_ootd')"><img
+                            src="./img/Less-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+                <br />
+                <div class="display-none" id="moreBtn_ootd">
+                    <button onclick="actionOnMoreBtn('moreBtn_ootd','lessBtn_ootd','ranking_data_ootd')"><img
+                            src="./img/More-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+            </div>
+
+
+            <div class="demo2 currdata  rewards-main" id="foodie" style="display: none;">
+
+                <div class="colThree1" id="rranking_data_rfirst">
+                    <div class="sBg" id="sGifr">
+                    </div>
+                    <div class="fBg" id="fGifr">
+                    </div>
+                    <div class="tBg" id="tGifr">
+                    </div>
+                </div>
+                <table id="ranking_data_r" cellspacing="0" class="table_data">
+                </table>
+                <table id="ranking_data_r1" cellspacing="0" class="table_data display-none"
+                    style="margin-top: 0;padding: 0;">
+                </table>
+                <div class="display-none" id="lessBtn_r">
+                    <br /><button onclick="actionOnLessBtn('lessBtn_r','moreBtn_r','ranking_data_r1')"><img
+                            src="./img/Less-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+                <br />
+                <div class="display-none" id="moreBtn_r">
+                    <button onclick="actionOnMoreBtn('moreBtn_r','lessBtn_r','ranking_data_r1')"><img
+                            src="./img/More-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+            </div>
+
+
+
+            <div class="demo2 currdata  rewards-main" id="streamkarcol" style="display: none;">
+
+                <div class="colThree1" id="rranking_data_winterfirst">
+                    <div class="sBg" id="sGifw">
+                    </div>
+                    <div class="fBg" id="fGifw">
+                    </div>
+                    <div class="tBg" id="tGifw">
+                    </div>
+                </div>
+                <table id="ranking_data_winter" cellspacing="0" class="table_data">
+                </table>
+                <table id="ranking_data_winter1" cellspacing="0" class="table_data display-none"
+                    style="margin-top: 0;padding: 0;">
+                </table>
+                <div class="display-none" id="lessBtn_winter">
+                    <br /><button
+                        onclick="actionOnLessBtn('lessBtn_winter','moreBtn_winter','ranking_data_winter1')"><img
+                            src="./img/Less-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+                <br />
+                <div class="display-none" id="moreBtn_winter">
+                    <button onclick="actionOnMoreBtn('moreBtn_winter','lessBtn_winter','ranking_data_winter1')"><img
+                            src="./img/More-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="demo2 currdata  rewards-main" id="travelphotography" style="display: none;">
+
+                <div class="colThree1" id="travel_first">
+                    <div class="sBg" id="sGift">
+                    </div>
+                    <div class="fBg" id="fGift">
+                    </div>
+                    <div class="tBg" id="tGift">
+                    </div>
+                </div>
+                <table id="ranking_data_travel" cellspacing="0" class="table_data">
+                </table>
+                <table id="ranking_data_travel1" cellspacing="0" class="table_data display-none"
+                    style="margin-top: 0;padding: 0;">
+                </table>
+                <div class="display-none" id="lessBtn_travel">
+                    <br /><button
+                        onclick="actionOnLessBtn('lessBtn_travel','moreBtn_travel','ranking_data_travel1')"><img
+                            src="./img/Less-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+                <br />
+                <div class="display-none" id="moreBtn_travel">
+                    <button onclick="actionOnMoreBtn('moreBtn_travel','lessBtn_travel','ranking_data_travel1')"><img
+                            src="./img/More-btn.png" alt="" style="width: 25vw;"></button>
+                </div>
+            </div>
+            <div class="main-timer-div">
+                <!-- <h4 class="countdown"> <div class="textStyle">Count Down</div> </h4> -->
+                <div id="simple_timer" class="syotimer timer">
+                    ends on:
+                    <div class="timer-head-block"></div>
+                    <div class="timer-body-block">
+                        <div class="table-cell day">
+                            <div class="tab-val ">00</div>
+                            <div class="tab-metr tab-unit">days</div>
+                        </div>
+                        <div class="table-cell hour">
+                            <div class="tab-val">00</div>
+                            <div class="tab-metr tab-unit">hours</div>
+                        </div>
+                        <div class="table-cell minute">
+                            <div class="tab-val">00</div>
+                            <div class="tab-metr tab-unit">minutes</div>
+                        </div>
+                        <div class="table-cell second">
+                            <div class="tab-val" style="opacity: 1;">00</div>
+                            <div class="tab-metr tab-unit">seconds</div>
+                        </div>
+                    </div>
+                    <div class="timer-foot-block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/datalist.js"></script>
+    <div id="myModal" class="modal " style="display: none;">
+        <!-- Modal content -->
+        <div class="modal-content">
+
+            <!-- <img src="img/How-to-play-tag.png" class="htp-tag" alt=""> -->
+
+            <div class="how-to-play-tag">
+                How To Play
+            </div>
+            <div style="clear: both"></div>
+            <div class="whole-section">
+                <ul id="rulesList">
+
+
+                    <li> The status challenge will be based on different <b>themes each week.</b></li>
+                    <li>
+                        Make sure to post content related only to the <b>hashtag</b> during the challenge.</li>
+                    <li>
+
+                        At the end of every week, according to the <b>likes </b>received on the post, users will be
+                        ranked &<b> top
+                            5 </b>will be rewarded.<br>
+                        <span>1 like = 10points.</span>
+                    </li>
+                    <li>
+
+
+                        Note: User will receive rewards only if the post is relevant to the hashtag for the week, if the
+                        posts don’t meet the criteria, they won’t receive any rewards even if the user is in <b>top
+                            5.</b></li>
+                    <li>
+
+                        Likes of <b>Level 3 + users & talents </b>will only be counted. Users whose level are below<b>
+                            level 3
+                        </b>will not be considered. </li>
+                    <li>Users cannot post or add more than one hashtag in their posts. Only <b>one hashtag</b> will be
+                        limited to
+                        <b>one post. </b>
+                    </li>
+                </ul>
+            </div>
+            <span class="close" id="close"><img src="img/close.png" class="close-dialog-free" alt=""></span>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div id="langModal" class="modal" style="display: none;">
+        <!-- Modal content -->
+        <div class="modal-language">
+            <!-- <span class="close">&times;</span> -->
+            <h4 class="language-head">Select Language:</h4>
+            <button class="btn-modal-lang active-lang" id="englishContent">English</button>
+            <button class="btn-modal-lang " id="urduContent">Urdu/Hindi</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.syotimer.min.js"></script>
+<script type="text/javascript" src="js/event.js"></script>
+
+<!-- 
+<script type="text/javascript" src="./../common/js/native_api.js?v=5"></script>
+<script type="text/javascript" src="./../common/js/common.js?v=3"></script> -->
+
+<script>
+    var topicId = 0;
+    var topicTitle = 0;
+    var local = 0;
+
+    var host = "https://www.streamkar.net";
+    $(document).ready(function () {
+
+        var today = new Date();
+        var todayDate = today.getUTCDate();
+        var month = today.getMonth();
+        console.log(month);
+        var m = month + 1;
+        console.log("m::", m);
+        //todayDate = 29;
+        console.log("Today is " + todayDate);
+
+        if ( todayDate <= 11 && m == 9 ) {
+            navChange(event, "ootd");
+            topicId = '866124';
+            topicTitle = "#TributeToAshaBhosle";
+            //  window.phone._customActivity(window.phone.ACTIVITIES.TOPICACTIVITY, ['topicId', 'topicTitle'], ['828836', '#FlowerDay']);
+            $('#header_pic').attr('src', 'img/1.jpg');
+            $('#ootdTab').addClass("active-btn");
+            $('#foodieTab').prop('disabled', 'disabled');
+            $('#streamkarcolTab').prop('disabled', 'disabled');
+            $('#travelphotographyTab').prop('disabled', 'disabled');
+            $('#simple_timer').syotimer({
+                year: 2024,
+                month: 9,
+                day: 11,
+                hour: 25,
+                minute: 0,
+                timeZone: 1
+
+            });
+
+        } else
+            if (todayDate >= 12 && todayDate <= 18 && m == 9) {
+
+                navChange(event, "foodie");
+                topicId = '866123';
+                topicTitle = "#WeddingSeason2024";
+                $('#header_pic').attr('src', 'img/2.jpg');
+                $('#foodieTab').addClass("active-btn");
+                $('#streamkarcolTab').prop('disabled', 'disabled');
+                $('#travelphotographyTab').prop('disabled', 'disabled');
+                $('#simple_timer').syotimer({
+                    year: 2024,
+                    month: 9,
+                    day: 18,
+                    hour: 25,
+                    minute: 0,
+                    timeZone: 1
+
+                });
+            } else if (todayDate >= 19 && todayDate <= 25 && m == 9) {
+                navChange(event, 'streamkarcol')
+                topicId = '866122';
+                topicTitle = "#HBDPankajTripathi";
+                $('#header_pic').attr('src', 'img/3.jpg');
+                $('#streamkarcolTab').addClass("active-btn");
+                $('#travelphotographyTab').prop('disabled', 'disabled');
+                $('#simple_timer').syotimer({
+                    year: 2024,
+                    month: 9,
+                    day: 25,
+                    hour: 25,
+                    minute: 0,
+                    timeZone: 1
+
+                });
+            }
+            else if ((todayDate >= 26  && m == 9) || (todayDate <= 2 && m == 10)) {
+                navChange(event, 'travelphotography')
+                topicId = '866125';
+                topicTitle = "#DesiSwag";
+                $('#header_pic').attr('src', 'img/4.jpg');
+                $('#travelphotographyTab').addClass("active-btn");
+                $('#simple_timer').syotimer({
+                    year: 2024,
+                    month: 9,
+                    day: 2,
+                    hour: 25,
+                    minute: 0,
+                    timeZone: 1
+
+                });
+            }
+    });
+
+
+    get_ranking_ootd(local);
+    get_ranking_foodie(local);
+    get_ranking_streamkarcool(local);
+    get_ranking_travelPhotography(local);
+
+    function navChange(evt, divId) {
+        console.log({
+            divId
+        });
+        // console.log("evt:", evt);
+        var navLinks = document.getElementsByClassName('btn-nav');
+        var navContent = document.getElementsByClassName('rewards-main')
+        for (var i = 0; i < navLinks.length; i++) {
+            navLinks[i].className = navLinks[i].className.replace(" active-btn", "")
+        }
+        for (var j = 0; j < navContent.length; j++) {
+            navContent[j].style.display = "none";
+        }
+        document.getElementById(divId).style.display = "block";
+        evt.currentTarget.className += " active-btn";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        // console.log(n);
+        showSlides(slideIndex += n);
+
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+
+    function gotostatus() {
+        // alert(`${topicId} - ${topicTitle}`);
+
+        try {
+
+            window.phone._customActivity(window.phone.ACTIVITIES.TOPICACTIVITY, ['topicId', 'topicTitle'], [topicId,
+                topicTitle
+            ]);
+        } catch (_error) {
+            console.error(_error);
+            showToast("Please update latest version of app.");
+
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    function getapi() {
+        $.ajax({
+            url: "https://ip.seeip.org/geoip",
+            jsonpCallback: "callback",
+            dataType: "jsonp",
+            success: function (location) {
+                console.log(location.country);
+                if (location.country == "Pakistan") {
+                    // $("#mov_type option[value='2']").attr("selected", "selected");
+                    // contentUrd();
+                    sessionStorage.setItem('SelectedItem', 2);
+                    sessionStorage.setItem('country', 'Pakistan');
+                    contentChange(2);
+                    $('#englishContent').removeClass("active-lang");
+                    $('#urduContent').addClass("active-lang");
+                    $('#btnLanguage').html('Urdu');
+                    $('#urduContent').html('Urdu');
+                    $('#country').html(location.country);
+                    // var e = document.getElementById("mov_type");
+                    // e.options[e.selectedIndex].value = "2";
+                } else if (location.country == 'India') {
+                    // $("#mov_type option[value='2']").attr("selected", "selected");
+                    // contentUrd();
+                    sessionStorage.setItem('SelectedItem', 2)
+                    sessionStorage.setItem('country', 'India');
+                    contentChange(2);
+                    $('#englishContent').removeClass("active-lang");
+                    $('#urduContent').addClass("active-lang");
+                    $('#btnLanguage').html('Hindi');
+                    $('#urduContent').html('Hindi')
+                    $('#country').html(location.country);
+                    // var e = document.getElementById("mov_type");
+                    // e.options[e.selectedIndex].value = "2";
+                } else {
+                    // $("#mov_type option[value='1']").attr("selected", "selected");
+                    // contenteng();
+                    sessionStorage.setItem('SelectedItem', 1)
+                    sessionStorage.setItem('country', 'English');
+                    contentChange(1);
+                    $('#englishContent').addClass("active-lang");
+                    $('#urduContent').removeClass("active-lang");
+                    $('#btnLanguage').html('English');
+                    // var e = document.getElementById("mov_type");
+                    // e.options[e.selectedIndex].value = "1";
+                }
+            }
+        });
+    }
+
+
+    $(document).ready(function () {
+        // var sample = ;
+        $("body").show();
+        $('#englishContent').removeClass("active-lang");
+            $('#urduContent').addClass("active-lang");
+            $('#btnLanguage').html('Urdu');
+        
+       
+                contentChange(2);
+           
+    });
+
+
+
+
+    function langSelect() {
+        $('#overlay').addClass('overlay');
+        var modal = document.getElementById("langModal");
+        showFunction("langModal");
+        // $('#langModal').addClass('showModal');
+        // $('#langModal').removeClass('hideModal');
+        modal.style.display = "block";
+        $('#englishContent').click(function () {
+            $('#overlay').removeClass('overlay');
+      
+            $('#englishContent').addClass("active-lang");
+            $('#urduContent').removeClass("active-lang");
+            $('#btnLanguage').html('English');
+            hideFunction("langModal");
+            // $('#langModal').removeClass('showModal');
+            // $('#langModal').addClass('hideModal');
+            contentChange(1);
+        });
+        $('#urduContent').click(function () {
+            $('#overlay').removeClass('overlay');
+            // modal.style.display = "none";
+            // alert('lang')
+      
+            $('#englishContent').removeClass("active-lang");
+            $('#urduContent').addClass("active-lang");
+            // var country = $('#country').text();
+            var country = sessionStorage.getItem('country');
+            if (country == 'Pakistan') {
+                $('#btnLanguage').html('Urdu');
+            } else {
+                $('#btnLanguage').html('Hindi');
+            }
+            // $('#btnLanguage').html('Urdu/Hindi');
+            hideFunction("langModal");
+            // $('#langModal').removeClass('showModal');
+            // $('#langModal').addClass('hideModal');
+            contentChange(2);
+        });
+
+
+    }
+
+    function showFunction(div_id) {
+        $('#' + div_id).addClass('showModal');
+        $('#' + div_id).removeClass('hideModal');
+    }
+
+    function hideFunction(div_id) {
+        $('#' + div_id).removeClass('showModal');
+        $('#' + div_id).addClass('hideModal');
+    }
+
+    // user agent check //
+    var UA = navigator.userAgent,
+        iOS = !!(UA.match(/iPad|iPhone/i));
+    if (iOS) {
+        $(document).on('touchstart', function (e) {
+            e.target.click();
+        });
+    }
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4DGWX5FW0C');
+    window.onload = function () {
+        gtag('send', 'event', {
+            eventCategory: 'tagBattle',
+            eventAction: 'Click',
+            eventLabel: 'enquiry tagBattle page'
+        });
+    };
+    ! function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }
+        (window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '234701767200765');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=234701767200765&ev=PageView&noscript=1" />
+</noscript>
+</script>
+
+</html>
