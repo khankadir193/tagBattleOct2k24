@@ -1023,13 +1023,13 @@ button {
 }
 
 .how-to-play-tag {
-  background-image: url(../img/Rewards-Header-min.png);
+  background-image: url('../img/how-to-play-button.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 78vw;
   margin: 0 auto;
   margin-top: -18vw;
-  padding: 4vw;
+  padding: 6vw;
   text-align: center;
   font-size: 5.5vw;
   margin-bottom: 3vw;
