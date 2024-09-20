@@ -319,8 +319,8 @@ ul li span {
   /*border: 2px solid rgb(120 98 254);*/
   /* line-height: 1.6; */
   background: url(../img/top2nd.png);
-  background-size: 100% 86%;
-  height: 31vw;
+  background-size: 94% 87%;
+  height: 27vw;
   /* margin-top: 4vw; */
   background-repeat: no-repeat;
 }
@@ -333,7 +333,7 @@ ul li span {
   border-radius: 10px;
   border: 2px solid rgb(120 98 254);*/
   background: url(../img/top1st.png);
-  background-size: 100% 95%;
+  background-size: 94% 92%;
   margin-bottom: 3vw;
   background-repeat: no-repeat;
   height: 28vw;
@@ -347,9 +347,9 @@ ul li span {
   border: 2px solid rgb(120 98 254);*/
   right: 0vw;
   background: url(../img/top3rd.png);
-  background-size: 100% 96%;
+  background-size: 96% 94%;
   margin-bottom: 4vw;
-  height: 28vw;
+  height: 25vw;
   background-repeat: no-repeat;
 }
 
