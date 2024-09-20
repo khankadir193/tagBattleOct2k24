@@ -325,6 +325,7 @@ ul li span {
   height: 27vw;
   /* margin-top: 4vw; */
   background-repeat: no-repeat;
+  margin-top: -5vw;
 }
 
 .f-img {
@@ -353,6 +354,7 @@ ul li span {
   margin-bottom: 4vw;
   height: 25vw;
   background-repeat: no-repeat;
+  margin-top: -6vw;
 }
 
 .tBg a>img {
