@@ -1,6 +1,8 @@
 @font-face {
-  font-family: 'MyriadRomanRegular';
-  src: url(font/Roundo-Regular.ttf);
+  font-family: 'Diam';
+  src: url(font/dDiam.ttf);
+  font-weight: normal;
+  font-style: normal;
   font-weight: normal;
   font-style: normal;
 }
@@ -13,7 +15,7 @@
 body {
   margin: 0 !important;
   padding-bottom: 0px;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   background: #024379 url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1127,7 +1129,7 @@ background-color:red;
 
 .header-text-bg span{
   font-size: 4vw;
-  color: #47ee10;
+  color: red;
   text-align: center;
   margin-top: 1vw;
   margin-bottom: 1vw;
