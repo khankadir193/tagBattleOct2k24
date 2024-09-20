@@ -636,7 +636,7 @@ td>img {
   cursor: pointer;
   width: 7vw;
   position: absolute;
-  margin-top: -59vw;
+  margin-top: -81vw;
   margin-left: 5vw;
 }
 
@@ -644,7 +644,7 @@ td>img {
   cursor: pointer;
   width: 7vw;
   position: absolute;
-  margin-top: -59vw;
+  margin-top: -81vw;
   margin-left: 84vw;
   /* margin-right: 93vw; */
   transform: rotate(180deg);
@@ -971,10 +971,10 @@ button {
   background-repeat: no-repeat;
   font-size: 4.5vw;
   text-align: center;
-  padding: 4vw 3vw;
+  padding: 10vw 4vw;
   margin-top: 5vw;
   position: relative;
-  top: -7vw;
+  top: -17vw;
 }
 
 .top3-level-img {
