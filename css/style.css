@@ -458,12 +458,14 @@ td {
 
 .border-bottom {
   width: 100%;
-  /*background-color: #220371;
-  border-spacing: 15px;*/
-  background: url(../img/Leaderboard_Ranking\ Bg.png);
+  background: url('../img/Leaderboard_Ranking Bg.png');
   background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: relative;
-  top: 13vw;
+  top: 13vw; /* Adjusts the distance of the container from the top */
+  padding: 0vw 1vw 10vw 5vw; /* Adds padding around the content */
+  box-sizing: border-box; /* Ensures padding is included within the element's width */
+
 }
 
 table {
