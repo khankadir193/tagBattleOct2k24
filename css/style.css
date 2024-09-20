@@ -486,6 +486,19 @@ table {
 
 .numberCircle {
   font-size: 2.8vw;
+  position: relative;
+  top: 1vw;
+}
+
+.num-bg{
+  background-image: url('../img/rank-number-bg.png');
+  background-size: contain; /* Ensures the image covers the entire background */
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center; /* Centers the image */
+  position: relative !important;
+  top: 1vw !important;
 }
 
 tbody {
