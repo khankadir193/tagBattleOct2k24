@@ -141,11 +141,20 @@
                     <div class="tBg" id="tGif">
                     </div>
                 </div>
-                <table id="ranking_data" cellspacing="0" class="table_data">
-                </table>
-                <table id="ranking_data_ootd" cellspacing="0" class="table_data display-none"
-                    style="margin-top: 0;padding: 0;">
-                </table>
+
+                <div class="table-bg">
+                    <!-- First Table -->
+                    <table id="ranking_data" cellspacing="0" class="table_data">
+                        <!-- Table content will go here -->
+                    </table>
+
+                    <!-- Second Table with display-none class initially hidden -->
+                    <table id="ranking_data_ootd" cellspacing="0" class="table_data display-none" style="margin-top: 0; padding: 0;">
+                        <!-- Table content will go here -->
+                    </table>
+                </div>
+
+                
                 <div class="display-none" id="lessBtn_ootd">
                     <br /><button onclick="actionOnLessBtn('lessBtn_ootd','moreBtn_ootd','ranking_data_ootd')"><img
                             src="./img/Less-btn.png" alt="" style="width: 25vw;"></button>
