@@ -176,7 +176,7 @@ ul li span {
 }
 
 .tablinks p {
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   background: #00000000;
   margin: auto;
   text-align: center;
@@ -253,7 +253,7 @@ ul li span {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   text-align: center;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   margin: 4vw auto 3vw;
 }
 
@@ -289,9 +289,9 @@ ul li span {
   border-bottom: 1px solid rgba(245, 255, 254, 0.16);
   padding: 2vw 5vw 2vw 0px;
   font-size: 2.5vw;
-  color: #fff;
+  color: red;
   text-align: right !important;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
 }
 
 .colThree1 {
@@ -365,7 +365,7 @@ ul li span {
 .fBgP,
 .tBgP {
   font-size: 2.5vw;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   /* margin-top: -2vw; */
   position: relative;
   top: 0vw;
@@ -535,7 +535,7 @@ p {
   /* line-height: 1.6; */
   font-weight: bold;
   color: darkblue;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   /* margin-top: 3vw; */
   position: relative;
   top: 2.5vw;
@@ -841,14 +841,14 @@ td>img {
 .timer {
   width: 85%;
   text-align: center;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   margin-bottom: 10px !important;
   margin: auto;
   border-radius: 0px;
 }
 
 .timer-head-block {
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   font-size: 5vw;
   text-align: center;
   margin: auto;
@@ -867,7 +867,7 @@ td>img {
 
 .timer .table-cell {
   display: inline-block;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
 }
 
 .timer .table-cell .tab-val {
@@ -878,7 +878,7 @@ td>img {
   /* padding: 6.5px; */
   margin: 1vw 1vw;
   text-align: center;
-  font-family: 'MyriadRomanRegular' !important;
+  font-family: 'Diam' !important;
   color: #FEF5C8;
   border: none;
   border-radius: 0px;
@@ -964,7 +964,7 @@ td>img {
   margin-left: 4vw;
   font-size: 3.3vw;
   font-weight: bold;
-  font-family: 'MyriadRomanRegular';
+  font-family: 'Diam';
 }
 
 .whole-section ul li h3 {
@@ -1133,6 +1133,10 @@ background-color:red;
   text-align: center;
   margin-top: 1vw;
   margin-bottom: 1vw;
+}
+
+.text-color{
+  color: red !important;
 }
 
 /* .fBg .namebox h2{
