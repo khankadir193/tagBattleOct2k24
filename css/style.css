@@ -1005,7 +1005,7 @@ button {
 }
 
 .win-title {
-  width: 82%;
+  width: 65%;
   display: block;
   margin: 0vw auto 0vw !important;
   background-image: url(../img/Rewards-Header-min.png);
