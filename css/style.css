@@ -149,7 +149,7 @@ ul li span {
   width: 100%;
   vertical-align: middle;
   font-size: 2vw;
-  color: red;
+  color: #541406 !important;
   /* min-height: 6vh; */
   font-weight: bold;
   padding: 2vw 0vw;
@@ -287,9 +287,9 @@ ul li span {
 
 .demo2 tr>td:nth-of-type(4) {
   border-bottom: 1px solid rgba(245, 255, 254, 0.16);
-  padding: 2vw 5vw 2vw 0px;
+  padding: 0vw 10vw 2vw 0px;
   font-size: 2.5vw;
-  color: red;
+  color: #541406;
   text-align: right !important;
   font-family: 'Diam' !important;
 }
@@ -474,13 +474,12 @@ td {
 .border-bottom {
   width: 100%;
   background: url('../img/Leaderboard_Ranking Bg.png');
-  background-size: 100% 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   position: relative;
   top: 3vw; /* Adjusts the distance of the container from the top */
-  padding: 0vw 1vw 10vw 5vw; /* Adds padding around the content */
+  padding: 0vw 0vw 0vw 6vw; /* Adds padding around the content */
   box-sizing: border-box; /* Ensures padding is included within the element's width */
-
 }
 
 table {
@@ -513,7 +512,7 @@ table {
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
   position: relative !important;
-  top: 1vw !important;
+  top: -1.5vw !important;
 }
 
 tbody {
@@ -1142,14 +1141,14 @@ background-color:red;
 
 .header-text-bg span{
   font-size: 4vw;
-  color: red;
+  color: #f3480c;
   text-align: center;
   margin-top: 1vw;
   margin-bottom: 1vw;
 }
 
 .text-color{
-  color: red !important;
+  color: #541406 !important;
   font-size: 3vw;
 }
 
