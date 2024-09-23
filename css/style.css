@@ -521,13 +521,9 @@ tbody {
 }
 
 .table-bg{
-  background-image: url('../img/rank-bg.png');
-  background-size: cover; /* Ensures the image covers the entire background */
   width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: center; /* Centers the image */
-  position: relative;
+  height: 130vw;
+  position: absolute;
   /* top: 0; */
   /* left: 0; */
   /* z-index: -1; */
@@ -535,13 +531,35 @@ tbody {
   /* margin-bottom: 20vw; */
 } 
 
-.table-bg-expand{
+.outside-table-bg{
   background-image: url('../img/rank-bg.png');
   background-size: cover; /* Ensures the image covers the entire background */
   width: 100%;
-  height: 130vw;
+  height: 140vw;
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
+  position: relative;
+  padding-top: 10vw;
+}
+
+.outside-table-bg2{
+  background-image: url('../img/rank-bg.png');
+  background-size: cover; /* Ensures the image covers the entire background */
+  width: 100%;
+  height: 140vw;
+  background-repeat: no-repeat;
+  background-position: center; /* Centers the image */
+  position: relative;
+  margin-top: 4vw;
+}
+
+.table-bg-expand{
+  /* background-image: url('../img/rank-bg.png');
+  background-size: cover; Ensures the image covers the entire background */
+  width: 100%;
+  height: 130vw;
+  /* background-repeat: no-repeat;
+  background-position: center; Centers the image */
   position: relative;
   overflow: scroll;
   /* top: 0; */
