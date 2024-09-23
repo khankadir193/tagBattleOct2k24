@@ -551,6 +551,7 @@ tbody {
   background-position: center; /* Centers the image */
   position: relative;
   margin-top: 4vw;
+  padding-top: 10vw;
 }
 
 .table-bg-expand{
