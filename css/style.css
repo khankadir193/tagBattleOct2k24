@@ -381,7 +381,7 @@ ul li span {
   font-family: 'Diam' !important;
   /* margin-top: -2vw; */
   position: relative;
-  top: 0vw;
+  top: 1vw;
 }
 
 .table_data {
@@ -1029,8 +1029,8 @@ button {
 }
 
 .top3-level-img {
-  width: 38%;
-  margin-top: 2vw;
+  width: 50%;
+  margin-top: 4vw;
 }
 
 .level-img {
@@ -1094,7 +1094,7 @@ background-color:red;
   border-radius: 2vw;
   /* border: 2px solid #0874c8; */
   /* box-shadow: inset -1px 4px 5px 0px #5fa2b7; */
-  margin-top: -6vw;
+  margin-top: -8vw;
   /* background-image: url('../img/userTop2.png'); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1105,7 +1105,7 @@ background-color:red;
     border-radius: 2vw;
     /* border: 2px solid #0874c8; */
     /* box-shadow: inset -1px 4px 5px 0px #5fa2b7; */
-    margin-top: -7vw;
+    margin-top: -10vw;
     /* background-image: url('../img/userTop3.png'); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1116,7 +1116,7 @@ background-color:red;
   border-radius: 2vw;
   /* border: 2px solid #0874c8; */
   /* box-shadow: inset -1px 4px 5px 0px #5fa2b7; */
-  margin-top: -15vw;
+  margin-top: -18vw;
   /* background-image: url('../img/userTop1.png'); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1150,6 +1150,7 @@ background-color:red;
 
 .text-color{
   color: red !important;
+  font-size: 3vw;
 }
 
 /* .fBg .namebox h2{
