@@ -1224,6 +1224,10 @@ background-color:red;
 .text-color{
   color: #541406 !important;
   font-size: 3vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 80%;
 }
 
 /* .fBg .namebox h2{
