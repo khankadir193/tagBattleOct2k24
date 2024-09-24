@@ -113,7 +113,7 @@ ul li span {
 }
 
 .active-btn {
-  background: url(../img/select-button.png) center/100% 100% no-repeat !important;
+  background: url('../img/slide-btn.png') center/100% 100% no-repeat !important;
   /* width: 100%; */
   vertical-align: middle;
   font-size: 3vw;
