@@ -258,13 +258,15 @@ ul li span {
 }
 
 .demo2 tr>td:nth-of-type(1) {
-  width: 8%;
+  width: 13%;
   text-align: center !important;
   border-bottom: 1px solid rgba(245, 255, 254, 0.16);
-  padding: 2vw 11px;
+  padding: 4vw 9px;
   color: rgb(255, 255, 255);
   position: relative;
-  top: -3vw;
+  top: 0vw !important;
+  transform: scale(.9);
+  /* margin-left: 16vw; */
 }
 
 .demo2 tr>td:nth-of-type(2) {
@@ -272,10 +274,13 @@ ul li span {
   text-align: left !important;
   border-bottom: 1px solid rgba(245, 255, 254, 0.16);
   padding: 2vw 0px;
+  position: relative;
+  top: -0.5vw !important;
+  transform: scale(1.4);
 }
 
 .demo2 tr>td:nth-of-type(3) {
-  width: 48%;
+  width: 42%;
   font-weight: bold;
   font-size: 2.5vw;
   border-bottom: 1px solid rgba(245, 255, 254, 0.16);
@@ -290,7 +295,7 @@ ul li span {
   padding: 0vw 10vw 2vw 0px;
   font-size: 2.5vw;
   color: #541406;
-  text-align: right !important;
+  /* text-align: right !important; */
   font-family: 'Diam' !important;
 }
 
@@ -392,7 +397,7 @@ ul li span {
   border: none;
   width: 100%;
   /* padding: 4vw; */
-  margin-top: 9vw;
+  margin-top: 4vw;
 }
 
 .rankNumber {
@@ -472,20 +477,24 @@ td {
 }
 
 .border-bottom {
-  width: 100%;
+  width: 87vw;
   background: url('../img/Leaderboard_Ranking Bg.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
   position: relative;
   top: 3vw; /* Adjusts the distance of the container from the top */
-  padding: 0vw 0vw 0vw 6vw; /* Adds padding around the content */
+  /* padding: 0vw 0vw 0vw 6vw; */ /* Adds padding around the content */
   box-sizing: border-box; /* Ensures padding is included within the element's width */
+   /* Adjusts the distance of the container from the left */
+  margin: 0 auto;
+  padding-left: 8vw;
+  margin-bottom: 3vw;
 }
 
 table {
   width: 100%;
   padding: 0 10px 0px 10px;
-  width: 90% !important;
+  /* width: 90% !important; */
   margin: 0 auto;
   color: #357bb8 !important;
   border-radius: 10px;
@@ -494,12 +503,15 @@ table {
 }
 
 .points {
-  width: 3vw;
+  width: 4vw;
   /* margin-right: 0.4vw; */
+  position: relative;
+  top: 0.5vw;
 }
 
 .numberCircle {
-  font-size: 2.8vw;
+  /* width: 2vw; */
+  font-size: 4vw;
   position: relative;
   top: 1vw;
 }
@@ -513,11 +525,13 @@ table {
   background-position: center; /* Centers the image */
   position: relative !important;
   top: -1.5vw !important;
+  /* margin-left: 16vw; */
+  margin-right: 3vw;
+  transform: scale(0.5) !important;
 }
 
 tbody {
-  /* margin-top: 15px; */
-  
+  margin-top: 15px;
 }
 
 .table-bg{
@@ -533,7 +547,7 @@ tbody {
 
 .outside-table-bg{
   background-image: url('../img/rank-bg.png');
-  background-size: cover; /* Ensures the image covers the entire background */
+  background-size: 100% auto; /* Ensures the image covers the entire background */
   width: 100%;
   height: 140vw;
   background-repeat: no-repeat;
@@ -581,7 +595,7 @@ tr {
 p {
   /* line-height: 1.6; */
   font-weight: bold;
-  color: darkblue;
+  color: white;
   font-family: 'Diam' !important;
   /* margin-top: 3vw; */
   position: relative;
@@ -1208,3 +1222,13 @@ background-color:red;
   margin-top: 1vw;
   margin-bottom: 1vw;
 } */
+
+/* leaderboar css */
+
+.wrap-username{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+  display: inline-block;
+  overflow: hidden;
+}
