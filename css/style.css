@@ -622,6 +622,7 @@ p {
   position: relative;
   top: 2.5vw;
   font-size: 2vw;
+  text-align: center;
 }
 
 td>img {
@@ -1059,7 +1060,7 @@ td>img {
 }
 
 .lb-tag {
-  width: 72%;
+  width: 50%;
   margin: auto;
   display: block;
   /* margin-bottom: -9vw; */
@@ -1339,5 +1340,5 @@ background-color:red;
 
 .reward-span-text{
   position: relative;
-  top: 3vw;
+  top: 10vw;
 }
