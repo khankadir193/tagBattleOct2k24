@@ -828,18 +828,19 @@ function get_ranking_travelPhotography(local) {
     }
 
 }
+function scrollTableBg(secondTableId, addClass) {
+  const tableIds = {
+    'ranking_data_r1': 'table_bg2',
+    'ranking_data_winter1': 'table_bg3',
+    'default': 'table_bg'
+  };
 
+  const tableBgId = tableIds[secondTableId] || tableIds['default'];
+  const method = addClass ? 'add' : 'remove';
+  document.getElementById(tableBgId).classList[method]('table-bg-expand');
+}
 function actionOnMoreBtn(hideBtnId, showBtnId, secondTableId) {
-    console.log('hi...kadir')
-    // document.getElementById('table_bg').classList.add('.table-bg','.table-bg-expand');
-    if(secondTableId === 'ranking_data_r1'){
-        document.getElementById('table_bg2').classList.add('table-bg-expand');
-    }else if(secondTableId === 'ranking_data_winter1'){
-        document.getElementById('table_bg3').classList.add('table-bg-expand');
-    }else{
-        document.getElementById('table_bg').classList.add('table-bg-expand');
-    }
-
+    scrollTableBg(secondTableId, true); //this is for showing  more  table content.
 
     document.getElementById(hideBtnId).classList.add('display-none');
     document.getElementById(showBtnId).classList.add('display-block');
@@ -850,13 +851,7 @@ function actionOnMoreBtn(hideBtnId, showBtnId, secondTableId) {
 }
 
 function actionOnLessBtn(hideBtnId, showBtnId, secondTableId) {
-    if(secondTableId === 'ranking_data_r1'){
-        document.getElementById('table_bg2').classList.remove('table-bg-expand');
-    }else if(secondTableId === 'ranking_data_winter1'){
-        document.getElementById('table_bg3').classList.remove('table-bg-expand');
-    }else{
-        document.getElementById('table_bg').classList.remove('table-bg-expand');
-    }
+    scrollTableBg(secondTableId, false); //this is for hiding  more  table content.
 
     document.getElementById(hideBtnId).classList.add('display-none');
     document.getElementById(showBtnId).classList.add('display-block');
