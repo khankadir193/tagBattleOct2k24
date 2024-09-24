@@ -666,14 +666,17 @@ td>img {
 }
 
 .close {
-  width: 14%;
+  width: 10%;
   display: block;
   margin: auto;
   /* float: right; */
   clear: both;
-  margin-top: -1vw;
-  margin-bottom: -24vw;
+  /* margin-top: -1vw; */
+  /* margin-bottom: -24vw; */
   /* margin-right: 34px; */
+  top: -18vw !important;
+  position: absolute;
+  right: 0;
 }
 
 .modal-content {
@@ -868,16 +871,16 @@ td>img {
 .rank {
   /* position: absolute; */
   text-align: center;
-  margin-top: -9vw;
+  margin-top: -9vw !important;
   font-size: 6vw;
   margin: auto;
   margin-top: 0vw;
   margin-bottom: 1vw;
-  background: url(../img/Rewards\ tag.png);
+  background: url('../img/number-bg.png');
   background-size: 100% 100%;
   width: 12%;
-  color: #813307;
-  padding: 1vw 1vw;
+  color: white;
+  padding: 4vw 1vw;
   font-weight: bold;
 }
 
@@ -1120,17 +1123,18 @@ button {
 }
 
 .how-to-play-tag {
-  background-image: url('../img/how-to-play-button.png');
+  background-image: url('../img/title.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 78vw;
+  width: 36vw;
   margin: 0 auto;
-  margin-top: -18vw;
+  margin-top: -25vw;
   padding: 6vw;
   text-align: center;
   font-size: 5.5vw;
   margin-bottom: 3vw;
   font-weight: bold;
+  height: 2vh;
 }
 .tBg > p{
 background-color:red;
@@ -1323,4 +1327,13 @@ background-color:red;
   top: 4.5vw;
   left: 61vw;
   transform: scale(.8);
+}
+
+#rulesList{
+  margin-top: 3vw;
+}
+
+.reward-span-text{
+  position: relative;
+  top: 3vw;
 }
