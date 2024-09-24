@@ -573,7 +573,7 @@ tbody {
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
   position: relative;
-  margin-top: -3vw;
+  /* margin-top: -3vw; */
   padding-top: 10vw;
 }
 
@@ -585,7 +585,7 @@ tbody {
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
   position: relative;
-  margin-top: -9vw;
+  /* margin-top: -9vw; */
   padding-top: 10vw;
 }
 
