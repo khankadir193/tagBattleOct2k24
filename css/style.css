@@ -555,7 +555,7 @@ tbody {
   background-image: url('../img/rank-bg.png');
   background-size: 100% 100%; /* Ensures the image covers the entire background */
   width: 100%;
-  height: 150vw;
+  height: 145vw;
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
   position: relative;
@@ -603,7 +603,21 @@ tbody {
   /* z-index: -1; */
   /* margin-top: -20vw; */
   /* margin-bottom: 20vw; */
-} 
+}
+
+.table-bg-expand2{
+  width: 100%;
+  height: 142vw;
+  position: relative;
+  overflow: scroll;
+}
+
+.table-bg-expand3{
+  width: 100%;
+  height: 139vw;
+  position: relative;
+  overflow: scroll;
+}
 
 
 tr {

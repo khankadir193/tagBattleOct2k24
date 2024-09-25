@@ -840,7 +840,14 @@ function scrollTableBg(secondTableId, addClass) {
   document.getElementById(tableBgId).classList[method]('table-bg-expand');
 }
 function actionOnMoreBtn(hideBtnId, showBtnId, secondTableId) {
-    scrollTableBg(secondTableId, true); //this is for showing  more  table content.
+    // scrollTableBg(secondTableId, true); //this is for showing  more  table content.
+    if(secondTableId === 'ranking_data_r1'){
+        document.getElementById('table_bg2').classList.add('table-bg-expand2');
+    }else if(secondTableId === 'ranking_data_winter1'){
+        document.getElementById('table_bg3').classList.add('table-bg-expand3');
+    }else{
+        document.getElementById('table_bg').classList.add('table-bg-expand');
+    }
 
     document.getElementById(hideBtnId).classList.add('display-none');
     document.getElementById(showBtnId).classList.add('display-block');
@@ -851,7 +858,14 @@ function actionOnMoreBtn(hideBtnId, showBtnId, secondTableId) {
 }
 
 function actionOnLessBtn(hideBtnId, showBtnId, secondTableId) {
-    scrollTableBg(secondTableId, false); //this is for hiding  more  table content.
+    // scrollTableBg(secondTableId, false); //this is for hiding  more  table content.
+    if(secondTableId === 'ranking_data_r1'){
+        document.getElementById('table_bg2').classList.remove('table-bg-expand2');
+    }else if(secondTableId === 'ranking_data_winter1'){
+        document.getElementById('table_bg3').classList.remove('table-bg-expand3');
+    }else{
+        document.getElementById('table_bg').classList.remove('table-bg-expand');
+    }
 
     document.getElementById(hideBtnId).classList.add('display-none');
     document.getElementById(showBtnId).classList.add('display-block');
