@@ -120,7 +120,7 @@ ul li span {
   color: white !important;
   /* min-height: 5vh; */
   font-weight: bold;
-  transform: scale(1, 1.3);
+  transform: scale(1, 1.1);
   position: relative !important;
   top: 3vw !important;
 }
