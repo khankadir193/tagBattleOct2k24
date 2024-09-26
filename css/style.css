@@ -268,7 +268,7 @@ ul li span {
   padding: 4vw 9px;
   color: rgb(255, 255, 255);
   position: relative;
-  top: 0vw !important;
+  top: -.5vw !important;
   transform: scale(.9);
   /* margin-left: 16vw; */
 }
