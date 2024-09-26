@@ -1359,7 +1359,44 @@ background-color:red;
 
 #user_img_3{
   position: relative !important;
-  top: -0.1vw !important;
+  top: 0.7vw !important;
+}
+
+#user_img_4{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+
+#user_img_6{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+#user_img_8{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+
+#user_img_9{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+#user_img_10{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+#user_img_11{
+  position: relative !important;
+  top: 0.7vw !important;
+}
+
+#user_img_106{
+  position: relative !important;
+  top: -1.5vw !important;
+}
+
+#user_img_204{
+  position: relative !important;
+  top: -1.5vw !important;
 }
 
 .flex{
