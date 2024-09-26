@@ -157,6 +157,7 @@ ul li span {
   padding: 2vw 0vw;
   position: relative;
   top: 2vw !important;
+  /* width: 22vw; */
 }
 
 .titleimage {
@@ -1415,4 +1416,9 @@ background-color:red;
   width: 39%;
   gap: 15vw;
   padding-left: 15vw;
+}
+
+.alignUser{
+  position: relative;
+  top: 15vw;
 }
