@@ -1443,3 +1443,16 @@ background-color:red;
   position: relative;
   left: 2vw;
 }
+
+#user_img_303{
+  position: relative;
+  top: -1vw !important;
+}
+.fourthTabPoints1{
+  position: relative;
+  right: 6vw;
+}
+.fourthTabPoints2{
+  position: relative;
+  right: 6vw;
+}
