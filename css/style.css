@@ -126,6 +126,13 @@ ul li span {
   top: 3vw !important;
 }
 
+.btn-nav.active-btn#ootdTab {
+  /* Active button styles */
+  width: 91% !important;
+  position: relative;
+  left: 1vw;
+}
+
 .col-four {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
