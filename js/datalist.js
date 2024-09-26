@@ -396,7 +396,7 @@ function get_ranking_ootd(local) {
                 $('#img_bulk_anim_1').removeAttr('src');
             },
             success: function (data) {
-
+            
                 rec_data = data;
                 //   rec_data = $.parseJSON(data);
 
@@ -419,7 +419,7 @@ function get_ranking_ootd(local) {
 
 
 function get_ranking_list(rec_data) {
-    console.warn("function called");
+    console.warn("function called",rec_data);
     var q = 1;
     var g = 5;
     var p;
