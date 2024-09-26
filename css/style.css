@@ -115,7 +115,7 @@ ul li span {
 
 .active-btn {
   background: url('../img/slide-btn.png') center/100% 100% no-repeat !important;
-  /* width: 100%; */
+  width: 91% !important;
   vertical-align: middle;
   font-size: 3vw;
   color: white !important;
