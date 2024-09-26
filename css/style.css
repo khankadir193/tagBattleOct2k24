@@ -156,7 +156,7 @@ ul li span {
   font-weight: bold;
   padding: 2vw 0vw;
   position: relative;
-  top: 2vw;
+  top: 2vw !important;
 }
 
 .titleimage {
