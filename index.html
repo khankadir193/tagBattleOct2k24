@@ -494,10 +494,21 @@
 
     // Next/previous controls
     function plusSlides(n) {
+        console.log('plusSlides', n);
         // console.log(n);
         showSlides(slideIndex += n);
 
     }
+
+    
+// Function to start automatic sliding every 5 seconds
+    function startSlideAuto() {
+        slideInterval = setInterval(function() {
+            plusSlides(1); // Move to the next slide
+        }, 5000); // 5000ms = 5 seconds
+    }
+
+    startSlideAuto();
 
     // Thumbnail image controls
     function currentSlide(n) {
