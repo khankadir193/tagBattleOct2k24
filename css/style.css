@@ -396,6 +396,7 @@ ul li span {
   position: relative;
   top: 1vw;
   color: #541406;
+  right: 3vw;
 }
 
 .table_data {
@@ -1424,4 +1425,21 @@ background-color:red;
 .alignUser{
   position: relative;
   top: 15vw;
+}
+
+.firstPointsIcon{
+  right: 5vw;
+}
+
+.secondPointsIcon{
+  right: 5vw;
+}
+
+.firstPointstTab{
+  right: 5vw;
+}
+
+#u_2{
+  position: relative;
+  left: 2vw;
 }
