@@ -682,6 +682,7 @@ td>img {
   bottom: 0;
   /* Specify a stack order in case you're using a different order for other elements */
   cursor: pointer;
+  z-index: -1000;
   /* Add a pointer on hover */
 }
 
@@ -714,7 +715,7 @@ td>img {
   width: 95%;
   /* overflow: auto; */
   top: 11%;
-  background: #0394a6;
+  /* background: #0394a6; */
   border-radius: 2vw;
   color: #f4f8ff;
   background: url(../img/popup.png);
@@ -1448,7 +1449,7 @@ background-color:red;
 
 #u_2{
   position: relative;
-  left: 2vw;
+  left: 0vw;
 }
 
 #user_img_303{

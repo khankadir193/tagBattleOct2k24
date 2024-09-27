@@ -494,7 +494,7 @@ function get_ranking_list(rec_data) {
 
 function openhowPlayBox(id) {
     // When the user clicks the button, open the modal
-    $('#overlay').addClass('overlay');
+    // $('#overlay').addClass('overlay');
 
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
