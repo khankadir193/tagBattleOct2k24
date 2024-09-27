@@ -686,6 +686,10 @@ td>img {
   /* Add a pointer on hover */
 }
 
+.posOverlay{
+  position: fixed;
+}
+
 .whole-section {
   margin-top: 0vw;
   width: 93%;

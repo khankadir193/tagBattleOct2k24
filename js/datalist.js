@@ -494,14 +494,14 @@ function get_ranking_list(rec_data) {
 
 function openhowPlayBox(id) {
     // When the user clicks the button, open the modal
-    // $('#overlay').addClass('overlay');
+    $('#overlay').addClass('posOverlay');
 
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
     var span = document.getElementById("close");
 
     span.onclick = function () {
-        $('#overlay').removeClass('overlay');
+        $('#overlay').removeClass('posOverlay');
         modal.style.display = "none";
         document.getElementById('rew_btn').scrollIntoView();
         $(window).scrollTop($('#rew_btn').offset().top);
