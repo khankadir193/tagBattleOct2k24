@@ -9,7 +9,7 @@ var eventData = {
 	 		},{
 	 			"rules" : "Everyone will have to post the relevant content under the status challenge."
 	 		},{
-	 			"rules" : "At the end of the challenge, the leader board will rank participants according to the likes they receive on the post and <b>top 5 users</b> will get rewards.<br><h3>1 like = 10points. </h3>participants will be ranked on the leaderboard according to the likes they receive. "
+	 			"rules" : "At the end of the challenge, the leader board will rank participants according to the likes they receive on the post and <b>top 5 users</b> will get rewards.<br><h3>1 like = 10 points </h3>participants will be ranked on the leaderboard according to the likes they receive. "
 	 		},{
 	 			"rules" : "Eg:- Status challenge is about #Christmas2021. During those 6 days of the challenge, users have to post relevant content with that hashtag and the person with the highest likes will be the winner."
 	 		},{
@@ -31,7 +31,7 @@ var eventData = {
 	 		},{
 	 			"rules" : "Event ke dauran, dhyaan rahe ki aap<b> hashtag </b>se related content hi post kare."
 	 		},{
-	 			"rules" : " Harr hafte ke end me, aapke post par likes ke hisaab se, saare users ko rank kiya jaayega aur <b>Top 5 </b>users ko rewards milenge. <h3>1 like = 10points. </h3>"
+	 			"rules" : " Harr hafte ke end me, aapke post par likes ke hisaab se, saare users ko rank kiya jaayega aur <b>Top 5 </b>users ko rewards milenge. <h3>1 like = 10 points </h3>"
 	 		},{
 	 			"rules" : "Dhyaan Rahe: Users ko rewards tab hi milenge jab unka post hashtag se related hoga. Agar aapka post <b>Top 5 </b>me aata hai aur agar woh hashtag se related nahi rahi toh aapko koi rewards nahi milenge.."
 	 		},{

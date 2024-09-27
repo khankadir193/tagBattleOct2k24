@@ -691,6 +691,8 @@ td>img {
   width: 93%;
   overflow-y: auto;
   height: 100vw;
+  font-family: 'TangoSans', sans-serif;
+  font-weight: bold;
 }
 
 .close {
@@ -1084,6 +1086,7 @@ td>img {
   text-align: center;
   font-size: 4vw;
   color: yellow !important;
+  font-family: 'TangoSans', sans-serif;
 }
 
 .lb-tag {
