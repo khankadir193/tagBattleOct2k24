@@ -33,7 +33,7 @@ var eventData = {
 	 		},{
 	 			"rules" : " Harr hafte ke end me, aapke post par likes ke hisaab se, saare users ko rank kiya jaayega aur <b>Top 5 </b>users ko rewards milenge. <h3>1 like = 10 points </h3>"
 	 		},{
-	 			"rules" : "Dhyaan Rahe: Users ko rewards tab hi milenge jab unka post hashtag se related hoga. Agar aapka post <b>Top 5 </b>me aata hai aur agar woh hashtag se related nahi rahi toh aapko koi rewards nahi milenge.."
+	 			"rules" : "Dhyaan Rahe: Users ko rewards tab hi milenge jab unka post hashtag se related hoga. Agar aapka post <b>Top 5 </b>me aata hai aur agar woh hashtag se related nahi rahi toh aapko koi rewards nahi milenge."
 	 		},{
 	 			"rules" : "<b>Level 3+</b> users and talents ki likes count kiya jaayega. Jinn users and talents ka<b> level 3+</b> nahi hai unka likes count nahi kiya jaayega."
 	 		}]
