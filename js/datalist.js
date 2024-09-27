@@ -846,6 +846,8 @@ function actionOnMoreBtn(hideBtnId, showBtnId, secondTableId) {
         document.getElementById('table_bg2').classList.add('table-bg-expand2');
     }else if(secondTableId === 'ranking_data_winter1'){
         document.getElementById('table_bg3').classList.add('table-bg-expand3');
+    }else if(secondTableId === 'ranking_data_travel1'){
+        document.getElementById('table_bg4').classList.add('table-bg-expand4');
     }else{
         document.getElementById('table_bg').classList.add('table-bg-expand');
     }
@@ -864,6 +866,8 @@ function actionOnLessBtn(hideBtnId, showBtnId, secondTableId) {
         document.getElementById('table_bg2').classList.remove('table-bg-expand2');
     }else if(secondTableId === 'ranking_data_winter1'){
         document.getElementById('table_bg3').classList.remove('table-bg-expand3');
+    }else if(secondTableId === 'ranking_data_travel1'){
+        document.getElementById('table_bg4').classList.remove('table-bg-expand4');
     }else{
         document.getElementById('table_bg').classList.remove('table-bg-expand');
     }

@@ -631,6 +631,13 @@ tbody {
   overflow: scroll;
 }
 
+.table-bg-expand4{
+  width: 100%;
+  height: 139vw;
+  position: relative;
+  overflow: scroll;
+}
+
 
 tr {
   color: #ffffff !important;
