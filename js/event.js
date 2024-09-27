@@ -9,7 +9,7 @@ var eventData = {
 	 		},{
 	 			"rules" : "Everyone will have to post the relevant content under the status challenge."
 	 		},{
-	 			"rules" : "At the end of the challenge, the leader board will rank participants according to the likes they receive on the post and <b>top 5 users</b> will get rewards.<br><h3>1 like = 10 points </h3>participants will be ranked on the leaderboard according to the likes they receive. "
+	 			"rules" : "At the end of the challenge, the leaderboard will rank participants according to the likes they receive on the post and <b>top 5 users</b> will get rewards.<br><h3>1 like = 10 points </h3>participants will be ranked on the leaderboard according to the likes they receive. "
 	 		},{
 	 			"rules" : "Eg:- Status challenge is about #Christmas2021. During those 6 days of the challenge, users have to post relevant content with that hashtag and the person with the highest likes will be the winner."
 	 		},{
