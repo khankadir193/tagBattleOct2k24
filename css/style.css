@@ -1361,6 +1361,30 @@ background-color:red;
   transform: scale(.8);
 }
 
+.usrImgTab4{
+  position: absolute;
+  z-index: 0;
+  top: .5vw;
+  left: 33vw;
+  transform: scale(1);
+}
+
+.usrImg2Tab4{
+    position: absolute;
+    z-index: 0;
+    left: 4vw;
+    transform: scale(.8);
+    top: 5vw;
+}
+
+.usrImg3Tab4{
+    position: absolute;
+    z-index: 0;
+    left: 61vw;
+    transform: scale(.8);
+    top: 5vw;
+}
+
 #rulesList{
   margin-top: 3vw;
 }
