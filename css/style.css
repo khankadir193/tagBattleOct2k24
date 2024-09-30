@@ -277,7 +277,7 @@ ul li span {
   padding: 4vw 9px;
   color: rgb(255, 255, 255);
   position: relative;
-  top: -.5vw !important;
+  top: -.2vw !important;
   transform: scale(.9);
   /* margin-left: 16vw; */
 }
@@ -569,7 +569,7 @@ tbody {
   background-image: url('../img/rank-bg.png');
   background-size: 100% 100%; /* Ensures the image covers the entire background */
   width: 100%;
-  height: 148vw;
+  height: 147vw;
   background-repeat: no-repeat;
   background-position: center; /* Centers the image */
   position: relative;
