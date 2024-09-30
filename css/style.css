@@ -1240,7 +1240,7 @@ background-color:red;
   background-size: 100% 100%;
 }
 
-.header-text-bg{
+/* .header-text-bg{
   background-image: url('../img/header-text-bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1256,15 +1256,15 @@ background-color:red;
   z-index: 1;
   top: -11vw;
 
-}
+} */
 
-.header-text-bg span{
+/* .header-text-bg span{
   font-size: 4vw;
   color: #f3480c;
   text-align: center;
   margin-top: 1vw;
   margin-bottom: 1vw;
-}
+} */
 
 .text-color{
   color: #541406 !important;
