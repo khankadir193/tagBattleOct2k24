@@ -1518,5 +1518,10 @@ background-color:red;
 
 .firstTabUserPoints{
   position: relative;
-  right: 1vw;
+  right: 1.5vw;
+}
+
+.thirdPointsIcon{
+  position: relative;
+  right: 1.5vw;
 }
